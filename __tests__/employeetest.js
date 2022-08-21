@@ -26,28 +26,28 @@ describe('Employee', () => {
         it ('Should get the employee name', () => {
             const employee = new Employee ('John', 25, 'newjohn@test.mail');
 
-            expect(employee.getName).toBe('John');
+            expect(employee.getName()).toBe('John');
         });
     });
     describe('get id', () => {
         it ('Should get the employee id', () => {
             const employee = new Employee ('John', 25, 'newjohn@test.mail');
 
-            expect(employee.getID).toBe(25);
+            expect(employee.getID()).toBe(25);
         });
     });
     describe('get email', () => {
         it('Should get the employee email', () => {
             const employee = new Employee ('John', 25, 'newjohn@test.mail');
 
-            expect(employee.getEmail).toBe('newjohn@test.mail');
+            expect(employee.getEmail()).toBe('newjohn@test.mail');
         });
     });
     describe('get role', () => {
         it ('Should get the role of the employee', () => {
             const employee = new Employee ('John', 25, 'newjohn@test.mail');
 
-            expect(employee.getRole).toBe('Employee');
+            expect(employee.getRole()).toBe('Employee');
         });
     });
 });
