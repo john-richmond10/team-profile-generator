@@ -9,8 +9,8 @@ const generateTeam = team => {
     <div class="card-body">
         <ul class="list-group">
             <li class="list-group-item">ID: ${manager.getID()}</li>
-            <li class="list-group-item>Email: ${manager.getEmail()}</li>
-            <li class="list-group-item>Office Number: ${manager.getOfficNumber()}</li>
+            <li class="list-group-item">Email: ${manager.getEmail()}</li>
+            <li class="list-group-item">Office Number: ${manager.getOfficeNumber()}</li>
         </ul>
     </div>
 </div>
