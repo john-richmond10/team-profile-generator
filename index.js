@@ -115,7 +115,7 @@ const intern = () => {
             {
                 type: 'input',
                 name: 'internID',
-                message: 'What is the interns name?'
+                message: 'What is the interns ID?'
             },
             {
                 type: 'input',
